@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
+title: cd /writing && ls -la
+subtitle: thoughts on design, software and technology
+description: Product, Aesthetics, Software, Robot Poetry, Core Processing Unit, Ones and Zeros
+author: Ryan S. Rich
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://w.ryansrich.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: cd
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
