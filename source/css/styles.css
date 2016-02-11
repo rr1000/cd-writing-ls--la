@@ -46,6 +46,22 @@ header p{
 	font-weight: 400;
 	font-style: italic;
 }
+a.cta{
+	display: block;
+	padding: 5px 10px;
+	font-size: 11px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	border-radius: 5px;
+	color: #fff;
+	width: 150px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	background-color: #455072;
+	margin: 0px 0px 30px 0px;
+}
+a.cta:hover{background-color: #1A2034;}
 .logo{
 	max-width: 30px;
 	padding: 0px 0px 30px 0px;
@@ -57,6 +73,12 @@ header p{
 	background-color: rgba(0,0,0,0.1);
 	width: 100px;
 	margin: 30px 0px;
+}
+/* Footer */
+footer a{
+	display: inline-block;
+	font-size: 14px;
+	margin: 0px 10px 0px 0px;
 }
 .posts a{
 	display: block;
@@ -232,3 +254,17 @@ pre .javascript .title,
 pre .coffeescript .title{color: #69c;}
 pre .keyword,
 pre .javascript .function{color: #c9c;}
+/* Responsive styling */
+@media all and (max-width: 570px){
+	.posts a span.date{
+		display: block;
+		padding: 0px 0px 10px 0px;
+		margin: 0px;
+	}
+	.posts a span.title{
+		display: block;
+		padding: 0px;
+		margin: 0px;
+	}
+	.g{padding: 30px;}
+}
