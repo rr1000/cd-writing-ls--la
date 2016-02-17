@@ -1,16 +1,19 @@
 <header>
-	<div class="logo">
-		<img src="/img/logo.png" alt="Logo">
-	</div>
-	<h1><%= config.title %></h1>
-	<p><%= config.subtitle %></p>
+    <div class="logo">
+        <img src="/img/logo.png" alt="Logo">
+    </div>
+    <h1><%= config.title %></h1>
+    <p><%= config.subtitle %></p>
+    <aside>
+        <p>Currently I'm the Director of Design at Catalyze, a compliance and infrastructure company changing the face of healthcare software. Before that I was a web developer at Global Thinking, co-founded an education startup and worked as a freelancer. This website is a work in progress. Below I've attempted to document projects I'm currently working on.</p>
+    </aside>
 </header>
 <div class="hr"></div>
 <section class="posts">
-	<% page.posts.each(function(post){ %>
-	<a href="<%- url_for(post.path) %>">
-		<span class="date"><%= date(post.date, config.date_format) %></span>
-		<span class="title"><%= post.title %></span>
-	</a>
-	<% }) %>
+    <% page.posts.each(function(post){ %>
+    <a href="<%- url_for(post.path) %>">
+        <span class="date"><%= date(post.date, config.date_format) %></span>
+        <span class="title"><%= post.title %></span>
+    </a>
+    <% }) %>
 </section>

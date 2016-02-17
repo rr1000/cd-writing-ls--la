@@ -1,49 +1,53 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8" />
-		<title><%= config.author %></title>
-		<meta name="description" content="Director of Design Catalyze | Product, Aesthetics, Software, Robot Poetry, Core Processing Unit, Ones and Zeros">
-		<meta name="keywords" content="Product Designer, Front-ene Developer, UI Designer, UX Designer, Director of Design">
-		<meta name="viewport" content="width=device-width,initial-scale=1.0">
-		<meta property="og:description" content="Director of Design Catalyze | Product, Aesthetics, Software, Robot Poetry, Core Processing Unit, Ones and Zeros">
-		<meta property="og:title" content="Ryan S. Rich" />
-		<meta property="og:type" content="website" />
-		<meta property="og:url" content="http://ryanSrich.com" />
-		<meta property="og:locale" content="en_US">
-		<meta property="twitter:card" content="summary" />
-		<meta property="twitter:site" content="@_ryanSrich" />
-		<meta property="twitter:title" content="Director of Design Catalyze | Product, Aesthetics, Software, Robot Poetry, Core Processing Unit, Ones and Zeros" />
-		<meta property="twitter:description" content="Director of Design Catalyze | Product, Aesthetics, Software, Robot Poetry, Core Processing Unit, Ones and Zeros" />
-		<link href='//fonts.googleapis.com/css?family=Roboto:400,100,300,400italic,500,700,700italic,900' rel='stylesheet' type='text/css'>
-		<link href='//fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
-		<!-- GA -->
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <head>
+        <meta charset="utf-8" />
+        <title><%= config.author %></title>
+        <meta name="description" content="Director of Design Catalyze | Product, Aesthetics, Software, Robot Poetry, Core Processing Unit, Ones and Zeros">
+        <meta name="keywords" content="Product Designer, Front-ene Developer, UI Designer, UX Designer, Director of Design">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta property="og:description" content="Director of Design Catalyze | Product, Aesthetics, Software, Robot Poetry, Core Processing Unit, Ones and Zeros">
+        <meta property="og:title" content="Ryan S. Rich" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://ryanSrich.com" />
+        <meta property="og:locale" content="en_US">
+        <meta property="twitter:card" content="summary" />
+        <meta property="twitter:site" content="@_ryanSrich" />
+        <meta property="twitter:title" content="Director of Design Catalyze | Product, Aesthetics, Software, Robot Poetry, Core Processing Unit, Ones and Zeros" />
+        <meta property="twitter:description" content="Director of Design Catalyze | Product, Aesthetics, Software, Robot Poetry, Core Processing Unit, Ones and Zeros" />
+        <link href='//fonts.googleapis.com/css?family=Roboto:400,100,300,400italic,500,700,700italic,900' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+        <!-- GA -->
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-			ga('create', 'UA-73669618-2', 'auto');
-			ga('send', 'pageview');
-		</script>
-		<!-- Styles -->
-		<%- css('css/styles') %>
-		<!-- Icons -->
-		<link rel="shortcut icon" href="/favicon.ico" />
-		<link rel="icon" type="image/png" href="/favicon.png" />
-		<link rel='apple-touch-icon' type='image/png' href='/touchicon.png'>
-	</head>
-	<body>
-		<div class="g">
-			<%- body %>
-			<div class="hr"></div>
-			<footer>
-				<a href="//ryansrich.com" class="cta">ryanSrich.com</a>
-				<a href="//github.com/rr1000" target="_blank">Github</a>
-				<a href="//twitter.com/_ryanSrich" target="_blank">Twitter</a>
-				<a href="//dribbble.com/ryanSrich" target="_blank">Dribbble</a>
-			</footer>
-		</div>
-	</body>
+            ga('create', 'UA-73669618-2', 'auto');
+            ga('send', 'pageview');
+        </script>
+        <!-- Styles -->
+        <%- css('css/styles') %>
+        <!-- Icons -->
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" href="/favicon.png" />
+        <link rel='apple-touch-icon' type='image/png' href='/touchicon.png'>
+    </head>
+    <body>
+        <div class="g">
+            <%- body %>
+            <div class="hr"></div>
+            <footer>
+                <a href="//ryansrich.com" class="cta">ryanSrich.com</a>
+                <a href="//github.com/rr1000" target="_blank">Github</a>
+                <a href="//twitter.com/_ryanSrich" target="_blank">Twitter</a>
+                <a href="//dribbble.com/ryanSrich" target="_blank">Dribbble</a>
+                <div class="pdx">
+                    <p>Portland, OR</p>
+                    <img src="/img/pdx_icon.jpg" alt="Portland, OR">
+                </div>
+            </footer>
+        </div>
+    </body>
 </html>
