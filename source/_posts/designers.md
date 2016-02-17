@@ -8,4 +8,4 @@ Designers with formal educations are taught an exhaustive range of knowledge and
 
 Engineers are not expected to only create and document their work. They must build and test. They must maintain. There is a necessity to shape their craft from many outlets.
 
-In this regard designers should be held to the same standard. Unfortunately it seems designers are failing to accomplish more than one aspect of design. They ignore the wholistic approach to the profession and instead latch onto terms that purposefully disregard it. The rise of the UX designer is a perfect example of this. Designers should be expected to incorporate all aspects of design into their daily work.
+In this regard designers should be held to the same standard. Unfortunately it seems designers are failing to accomplish more than one aspect of design. They ignore the holistic approach to the profession and instead latch onto terms that purposefully disregard it. The rise of the UX designer is a perfect example of this. Designers should be expected to incorporate all aspects of design into their daily work.

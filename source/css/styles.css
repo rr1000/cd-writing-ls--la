@@ -46,14 +46,17 @@ header p{
     font-weight: 400;
     font-style: italic;
 }
-header aside p{
-    font-style: normal;
+header aside{
+    padding: 20px;
     margin: 10px 0px 0px 0px;
-    max-width: 400px;
-    padding: 10px;
     border-radius: 5px;
     background-image: linear-gradient(-180deg, #FFFFFF 0%, #F9FAFF 100%);
     border: 1px solid #D9DCE7;
+    max-width: 400px;
+}
+header aside p{
+    font-style: normal;
+    padding: 0px;
     color: #9292A4;
     font-size: 14px;
 }
