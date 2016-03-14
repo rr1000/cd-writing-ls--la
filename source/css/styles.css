@@ -33,18 +33,19 @@ body a{
     padding: 50px;
 }
 header h1{
-    color: #111;
-    text-transform: uppercase;
-    font-weight: 900;
+    color: #999;
+    font-weight: 700;
+    font-size: 14px;
     letter-spacing: 1px;
+    text-transform: uppercase;
     padding: 0px 0px 10px 0px;
 }
 header p{
-    font-size: 14px;
-    line-height: 1.8;
-    color: #676767;
-    font-weight: 400;
-    font-style: italic;
+    font-size: 30px;
+    color: #222;
+    line-height: 1.5;
+    font-weight: 300;
+    max-width: 60%;
 }
 header aside{
     margin: 10px 0px 0px 0px;;
@@ -52,8 +53,19 @@ header aside{
 }
 header aside p{
     padding: 0px;
-    color: #aaa;
+    color: #777;
     font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 100%;
+    line-height: 1.8;
+}
+.post-header p{font-size: 14px;font-weight: 400;color: #777;}
+.post-header h1{
+    text-transform: none;
+    font-size: 30px;
+    color: #222;
+    font-weight: 300;
 }
 a.cta{
     display: block;
@@ -147,7 +159,8 @@ footer .pdx p{
 /* Single post styles */
 .post h1,
 .post h2,
-.post h3{
+.post h3,
+.post h4{
     font-weight: 900;
     font-size: 25px;
     padding: 0px 0px 20px 0px;
@@ -196,7 +209,10 @@ hr{
     max-width: 100%;
     height: auto;
     display: block;
+    transition: all .350s ease-in-out;
+    cursor: zoom-in;
 }
+.imgRescale{transform: scale(1.6);cursor: zoom-out !important;;}
 .post .shadow img{
     max-width: 100%;
     height: auto;
@@ -313,6 +329,7 @@ pre .keyword,
 pre .javascript .function{color: #c9c;}
 /* Responsive styling */
 @media all and (max-width: 570px){
+    header p{max-width: 100%;}
     .posts a span.date{
         display: block;
         padding: 0px 0px 10px 0px;
