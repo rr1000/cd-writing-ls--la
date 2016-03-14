@@ -1,6 +1,6 @@
 ---
 title: Designing Stratum
-date: 2016-02-28 12:37:19
+date: 2016-03-12 12:37:19
 tags: catalyze, UI, product, product development, product design
 ---
 
