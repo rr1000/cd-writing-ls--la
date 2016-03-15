@@ -3,8 +3,6 @@ title: Remote Foundations - Part 1
 tags: 'remote, work, jobs, design, tech'
 date: 2016-02-16 18:18:30
 ---
-
-
 ### Introduction
 
 It's safe to say that remote work has proven to be an effective work style in the modern business. This type of work is the future of employment, especially in the technology industry. _Remote Foundations_ is a two part series on the benefits of working remotely. Part 1 focuses on tips for employees.
