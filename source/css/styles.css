@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,100,300,400italic,500,500italic,700,900");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,17 +22,40 @@ q:before, q:after{content: '';content: none;}
 table{border-collapse: collapse;border-spacing: 0;}
 *, *:after, *:before{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inconsolata', courier, monospace;
     line-height: 1;
 }
 body a{
     color: #1055ff;
     text-decoration: none;
 }
+nav{
+    background-color: rgba(0,0,0,0.9);
+    padding: 10px;
+}
+nav a{
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    margin: 0px 5px;
+}
 .g{
     max-width: 680px;
     margin: 0px auto;
     padding: 50px;
+}
+.oops{
+    position: fixed;
+    left: 98px;
+    top: 112px;
+}
+.oops img{
+    max-width: 100%;
+    height: auto;
+    width: 250px;
+}
+main.blog{
+    font-family: 'Roboto', sans-serif;
 }
 header h1{
     color: #999;
@@ -63,9 +88,12 @@ header aside p{
 .post-header p{font-size: 14px;font-weight: 400;color: #777;}
 .post-header h1{
     text-transform: none;
-    font-size: 30px;
-    color: #222;
-    font-weight: 300;
+    color: #fff;
+    font-weight: 100;
+    margin: 0px 0px 50px 0px;
+    font-size: 100px;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.9);
 }
 a.cta{
     display: block;
@@ -94,8 +122,10 @@ a.cta{
 a.cta:hover{color: #fff;}
 a.cta:hover{background-color: #1A2034;}
 .logo{
-    max-width: 30px;
-    padding: 0px 0px 30px 0px;
+    max-width: 25px;
+    position: fixed;
+    left: 30px;
+    top: 30px;
 }
 .logo img{max-width: 100%;height: auto;}
 .hr{
@@ -134,7 +164,6 @@ footer .pdx p{
     font-size: 14px;
     padding: 10px 10px 10px 0px;
     text-decoration: none;
-    border-radius: 5px;
     border: 1px solid transparent;
     -moz-transition: all 350ms ease;
     -webkit-transition: all 350ms ease;
@@ -143,8 +172,8 @@ footer .pdx p{
 }
 .posts a:hover{
     padding: 10px;
-    background-image: linear-gradient(-180deg, #FFFFFF 0%, #F9FAFF 100%);
-    border: 1px solid #D9DCE7;
+    color: #fff;
+    background-color: rgba(0,0,0,0.9);
     -moz-transition: all 350ms ease;
     -webkit-transition: all 350ms ease;
     -o-transition: all 350ms ease;
@@ -328,17 +357,37 @@ pre .coffeescript .title{color: #69c;}
 pre .keyword,
 pre .javascript .function{color: #c9c;}
 /* Responsive styling */
-@media all and (max-width: 570px){
-    header p{max-width: 100%;}
-    .posts a span.date{
+@media all and (max-width: 1300px){
+    .oops{top: 200px;}
+}
+@media all and (max-width: 800px){
+    nav{padding: 0px;}
+    nav a{
+        padding: 5px;
         display: block;
-        padding: 0px 0px 10px 0px;
         margin: 0px;
+        text-align: left;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
     }
-    .posts a span.title{
-        display: block;
+    .oops{
+        top: auto;
+        left: auto;
+        bottom: 50px;
+        right: 50px;
+    }
+    .oops img{
+        max-width: 100px;
+    }
+    .g{
+        margin: 0px;
+        padding: 10px;
+    }
+    .post-header h1{
         padding: 0px;
-        margin: 0px;
+        font-size: 40px;
+        font-weight: 900;
+        margin: 20px 0px;
+        background-color: transparent;
+        color: rgba(0,0,0,0.9);
     }
-    .g{padding: 30px;}
 }
